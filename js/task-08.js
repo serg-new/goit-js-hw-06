@@ -19,8 +19,8 @@ function handleSubmit(event) {
     
   if (email.value !== "" && password.value !== "") {
     console.log(
-        `Login: ${formEl.email}, 
-        Password: ${formEl.password}`
+        `Login: ${formEl.email.value}, 
+        Password: ${formEl.password.value}`
     );
     formEl.reset();
     return;
